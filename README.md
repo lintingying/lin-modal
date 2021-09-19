@@ -1,6 +1,4 @@
 # lin-modal
-## Getting started
-### Installation
 
 ```shell
 npm install lin-modal
@@ -15,5 +13,10 @@ In browser:
 
 ```js
 var modal = new Modal();
-modal.open(options);
+modal.open({
+  title: '标题',
+  content: '是否保存更改？',
+});
+modal.loading();
+modal.close();
 ```

@@ -1,12 +1,28 @@
 {
   "name": "lin-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "modal.js",
+  "main": "dist/modal.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "keywords": ["modal", "dialog"],
+  "repository": {
+    "type": "Git",
+    "url": "git+https://github.com/lintingying/lin-modal.git"
+  },
+  "keywords": [
+    "modal",
+    "dialog"
+  ],
   "author": "lintingying",
-  "license": "ISC"
+  "license": "MIT",
+  "homepage": "https://github.com/lintingying/lin-modal.git",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
 }

@@ -1,4 +1,6 @@
-function Modal() {
+import './modal.css';
+
+export default function Modal() {
   
   this.option = {
     title: null,
@@ -86,12 +88,3 @@ function Modal() {
 
   this.close = close;
 }
-
-// var modal = new Modal();
-// modal.open({
-//   title: '标题',
-//   content: '是否保存更改？',
-// });
-// modal.loading();
-// modal.close();
-exports.Modal = Modal
